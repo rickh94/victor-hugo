@@ -1,6 +1,6 @@
-baseurl = "/"
+baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Hugo Netlify First Site"
+title = "Strata"
 theme = "hugo-strata-theme"
 disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
@@ -140,11 +140,6 @@ paginate = 10
 	name = "Home"
 	url  = "/"
 	weight = 10
-
-[[menu.main]]
-    name = "About"
-    url = "about"
-    weight = 5
 
 [[menu.main]]
 	name = "Blog"
