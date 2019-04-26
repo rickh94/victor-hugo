@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Hugo Netlify First Site"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -27,13 +27,13 @@ paginate = 10
 
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
-		avatar = "avatar.jpg"
+		avatar = "nathan-anderson-1533562-unsplash.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Strata**, a super simple<br> responsive site template freebie<br> crafted by [HTML5 UP](//html5up.net)."
+		bio = "**I'm a cute puppy**, here's my fake portfolio. Theme by [HTML5 UP](//html5up.net)."
 		# The icons will be shown if you enter your username
-		twitter = "spf13"
-		github = "spf13"
-		gitlab = "spf13"
+		twitter = ""
+		github = "rickh94"
+		gitlab = ""
 		dribbble = ""
 		facebook = ""
 		googleplus = ""
@@ -41,7 +41,7 @@ paginate = 10
 		linkedin = ""
 
 		copyright = [
-			"&copy; John Doe",
+			"&copy; Rick Henry",
 			"Design: [HTML5 UP](//html5up.net)",
 			"Demo Images: [Unsplash](//unsplash.com/)"
 		]
@@ -49,8 +49,13 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "You can see some random images and text below"
+		content = """Hugged fed guinea dear insincerely fanciful 
+the convincing much poured grinned shoddily more vindictive waked yikes mindful 
+combed a forward and much that darn regardless past wherever attentively toward astride.
+
+Well oh firefly dear blissfully coasted goodness nodded far when indirect certainly and 
+hare fled ferret gosh a far wildebeest lost away more dubious."""
 
 
 	[params.portfolio]
